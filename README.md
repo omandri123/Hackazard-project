@@ -45,9 +45,9 @@ As the candidate answers each question, TAS analyzes facial expressions, posture
 
 ### Team Members:  
 - Om Andri (github username - omandri123 / LinkedIn - Om Andri/ / Role : Developer)  
-- Pintu ()  
+- Pintu Kumar  
 - 
-  *Insta ID (Om Andri) = https://www.instagram.com/__om__andri__/ , Insta ID (Pintu Kumar) = https://www.instagram.com/pintu_rajput03/*
+  *Insta ID (Om Andri) = https://www.instagram.com/__om__andri__/   Insta ID (Pintu Kumar) = https://www.instagram.com/pintu_rajput03/*
 
 ### Your Approach:  
 - We chose this problem because interview performance is one of the most critical factors in personal and professional growth — yet most people don’t get objective, actionable feedback on how they perform. At the same time, companies struggle to evaluate soft skills and behavioral traits effectively during interviews. TAS bridges this gap by combining facial expression analysis, speech processing, and intelligent feedback generation.
