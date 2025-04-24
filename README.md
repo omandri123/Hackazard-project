@@ -2,7 +2,7 @@
 
 # 🚀 TAS- Training Agent System
 
-> .
+>TAS (Training Agent System) is an advanced AI-powered platform designed for both interview preparation and real-time candidate evaluation. Whether you're a job seeker looking to sharpen your skills or a company aiming to assess candidates with precision, TAS has you covered. It analyzes facial expressions, voice tone, speech content, and body language to provide detailed feedback or evaluation — making it the perfect tool for both personal growth and professional hiring.
 
 ---
 
@@ -16,7 +16,6 @@ We can prepare for exams for years using books and lectures.
 But what about interviews?
 
 An interview is not just a test of knowledge—it’s a test of presence, communication, confidence, and behavior. These are physical and psychological traits you can’t just read about. You need real-time practice and feedback.
-
 That’s where TAS – The Training Agent System comes in.
 
 TAS is built around two major objectives:
@@ -24,7 +23,7 @@ TAS is built around two major objectives:
 1. Lack of Constructive Feedback: After most interviews, candidates are either placed or rejected without knowing why. There's no meaningful feedback that helps them learn or grow from the experience.
 
 
-2. No Dedicated and Optimized Training Tool: While there are platforms for interview prep, they often lack real-time analysis and detailed, personalized feedback.
+2. No Dedicated and Optimized Training Tool for interview training: While there are platforms for interview prep, but they all lack real-time analysis and detailed, personalized feedback. Most of these softwares just judge based on your text response.
 
 ---
 
@@ -45,45 +44,47 @@ As the candidate answers each question, TAS analyzes facial expressions, posture
 `IET-SAG`
 
 ### Team Members:  
-- Om Andri (GitHub / LinkedIn / Role)  
-- Name 2  
-- Name 3  
-*(Add links if you want)*
+- Om Andri (github username - omandri123 / LinkedIn - Om Andri/ / Role : Developer)  
+- Pintu ()  
+- 
+  *Insta ID (Om Andri) = https://www.instagram.com/__om__andri__/ , Insta ID (Pintu Kumar) = https://www.instagram.com/pintu_rajput03/*
 
 ### Your Approach:  
-- Why you chose this problem  
-- Key challenges you addressed  
-- Any pivots, brainstorms, or breakthroughs during hacking  
+- We chose this problem because interview performance is one of the most critical factors in personal and professional growth — yet most people don’t get objective, actionable feedback on how they perform. At the same time, companies struggle to evaluate soft skills and behavioral traits effectively during interviews. TAS bridges this gap by combining facial expression analysis, speech processing, and intelligent feedback generation.
+  
+- One of the key challenges we addressed was real-time multi-modal data integration — capturing and analyzing facial cues, tone, and speech simultaneously without lag. Ensuring smooth synchronization between modules and delivering instant feedback required careful handling of processing pipelines and resource management.
+  
+- During the development, we had several breakthroughs. One was integrating a live self-view window during practice sessions, replicating the "mirror effect" to help candidates self-correct in real time. Another was designing the system to seamlessly switch between Training Mode and Evaluation Mode, making it useful for both individuals and organizations. We also pivoted from traditional feedback to a detailed PDF report with visual insights like graphs and pie charts, enhancing clarity and user impact.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Core Technologies Used:
-- Frontend:
-- Backend:
-- Database:
-- APIs:
-- Hosting:
+- Frontend: Tkinter (for GUI), OpenCV (for live camera feed and emotion tracking)
+- Backend: Python (for logic handling, audio & facial analysis), DeepFace, SpeechRecognition
+- Database: SQLite (for storing user data, interview logs, and session reports)
+- APIs: Groq API (for advanced AI analysis and feedback generation), Text-to-Speech (gTTS or pyttsx3)
+- Hosting: Local system for offline training, optional cloud integration for enterprise-level deployment
 
 ### Sponsor Technologies Used (if any):
-- [ ] **Groq:** _How you used Groq_  
+- [✅] **Groq:** _How you used Groq_  
 - [ ] **Monad:** _Your blockchain implementation_  
 - [ ] **Fluvio:** _Real-time data handling_  
 - [ ] **Base:** _AgentKit / OnchainKit / Smart Wallet usage_  
 - [ ] **Screenpipe:** _Screen-based analytics or workflows_  
 - [ ] **Stellar:** _Payments, identity, or token usage_
-*(Mark with ✅ if completed)*
+
 ---
 
 ## ✨ Key Features
 
 Highlight the most important features of your project:
 
-- ✅ Feature 1  
-- ✅ Feature 2  
-- ✅ Feature 3  
-- ✅ Feature 4  
+- ✅ Dual Mode Functionality – Includes both Interview Training Mode for candidates and Evaluation Mode for companies 
+- ✅ Real-Time Facial and Speech Analysis – Monitors expressions, body posture, voice tone, and answer quality simultaneously
+- ✅ Smart Question Generation – Personalized interview questions based on user goals and evaluation criteria
+- ✅ Detailed Feedback Report – Generates a comprehensive PDF with graphs, pie charts, rankings, and improvement suggestions  
 
 Add images, GIFs, or screenshots if helpful!
 
@@ -91,27 +92,27 @@ Add images, GIFs, or screenshots if helpful!
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [Paste YouTube or Loom link here]  
-- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]  
+- **Demo Video Link:** [YouTube Link: ](https://youtu.be/k36mRPnrYK8) ]  
+- **Document Link (OneDrive):** [https://1drv.ms/w/c/b03b195cf5baf088/EZ64unxKhN5NjUSeMrbawAwBfaZz069cfn8prrg38ENqeg?e=OcftNR]  
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
-- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
-- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
-
-*(Mark with ✅ if completed)*
+- [✅] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
+- [✅] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
+- [✅] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
 
 ---
 
 ## 🧪 How to Run the Project
 
 ### Requirements:
-- Node.js / Python / Docker / etc.
-- API Keys (if any)
-- .env file setup (if needed)
+- Python 3.8+
+- Pip (Python package manager)
+- OpenCV, Tkinter, DeepFace, SpeechRecognition
+- Groq API key (optional, for AI-based feedback)
+- .env file (for storing API keys securely, if needed)
 
 ### Local Setup:
 ```bash
@@ -132,24 +133,44 @@ Provide any backend/frontend split or environment setup notes here.
 
 ## 🧬 Future Scope
 
-List improvements, extensions, or follow-up features:
+List of improvements, extensions, or follow-up features planned for TAS:
 
-- 📈 More integrations  
-- 🛡️ Security enhancements  
-- 🌐 Localization / broader accessibility  
+- More Integrations – Integration with platforms like Zoom, MS Teams, or job portals for seamless real-world application
+- Security Enhancements – Improved data encryption, secure login system, and GDPR-compliant data handling
+- Localization & Accessibility – Multilingual support, screen reader compatibility, and adaptive design for wider reach
+- AI-Powered Question Adaptation – Real-time adjustment of difficulty based on candidate performance
+- Cloud Sync & Analytics Dashboard – Centralized storage with admin dashboards for organizations to track multiple candidates
+- Plugin System – Allow third-party modules for HR-specific customization 
 
 ---
 
 ## 📎 Resources / Credits
 
-- APIs or datasets used  
-- Open source libraries or tools referenced  
-- Acknowledgements  
+- APIs Used:
+  - Groq AI – For intelligent feedback generation
+  - Google Speech Recognition API – For voice-to-text processing
+
+- Open Source Libraries & Tools:
+  - OpenCV – For real-time facial expression analysis
+  - DeepFace – For emotion detection from facial features
+  - Tkinter – For GUI development
+  - Matplotlib – For generating graphs and pie charts in reports
+  - fpdf – For creating PDF feedback reports
+
+- Acknowledgements:
+  - Special thanks to the open-source community for providing powerful tools and libraries
+  - Gratitude to all mentors, testers, and early users who provided feedback during development 
 
 ---
 
 ## 🏁 Final Words
 
-Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
+Building TAS has been an incredible journey of innovation, problem-solving, and pushing technical boundaries.
+From sleepless debugging nights to those "aha!" moments when everything finally worked — this project tested both our skills and patience.
+We tackled challenges in real-time data processing, synchronized multiple modules, and crafted a user-friendly system from the ground up. 
+Collaborating, learning new libraries, and integrating AI feedback felt both exciting and empowering.
+
+Big shout-out to our team, mentors, and the hackathon organizers for creating an inspiring space to build something meaningful. 
+TAS is just the beginning — we’re excited to see how far we can take it! 🚀
 
 ---
