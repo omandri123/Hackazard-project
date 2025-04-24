@@ -116,15 +116,20 @@ Add images, GIFs, or screenshots if helpful!
 
 ### Local Setup:
 ```bash
-# Clone the repo
-git clone https://github.com/your-team/project-name
+# Clone the repository
+git clone https://github.com/omandri123/TAS-Training-Agent-System-HACKHAZARDS-PROJECT
+cd TAS-Training-Agent-System-HACKHAZARDS-PROJECT
 
-# Install dependencies
-cd project-name
-npm install
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-# Start development server
-npm run dev
+# Install required dependencies
+pip install -r requirements.txt
+
+# Run the main application
+python main.py
+
 ```
 
 Provide any backend/frontend split or environment setup notes here.
