@@ -273,10 +273,12 @@ def main_menu():
     root.title("Interview System")
     root.geometry("400x250")
 
-    tk.Label(root, text="Select Mode", font=("Arial", 16)).pack(pady=20)
-    tk.Button(root, text="Start Training Mode", font=("Arial", 14), width=25,
+    font_style = ("Arial", 16, "normal")  
+
+    tk.Label(root, text="Select Mode", font=font_style).pack(pady=20)
+    tk.Button(root, text="Interview Training Mode", font=font_style, width=25,
               command=lambda: start_training(root)).pack(pady=10)
-    tk.Button(root, text="Run Interview Agent", font=("Arial", 14), width=25,
+    tk.Button(root, text="Interview Agent Mode", font=font_style, width=25,
               command=lambda: run_interview_agent(root)).pack(pady=10)
 
     root.mainloop()
