@@ -45,7 +45,7 @@ As the candidate answers each question, TAS analyzes facial expressions, posture
 
 ### Team Members:  
 - Om Andri (github username - omandri123 / LinkedIn - Om Andri/ / Role : Developer)  
-- Pintu Kumar  
+- Pintu Kumar (github username - PINTU1318)
 - 
   *Insta ID (Om Andri) = https://www.instagram.com/__om__andri__/   Insta ID (Pintu Kumar) = https://www.instagram.com/pintu_rajput03/*
 
